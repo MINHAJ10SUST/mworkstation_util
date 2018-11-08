@@ -19,7 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".jason2view.JasonViewActivity"></activity>
+        <activity android:name=".jason2view.JasonViewActivity" />
+        <activity android:name=".app2install.AppInstallActivity" />
+        <activity android:name=".encrypt2spref.DataEncyptActivity" />
+        <activity android:name=".dateutil.DateActivity"></activity>
     </application>
 
 </manifest>

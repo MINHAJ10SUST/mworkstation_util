@@ -15,6 +15,9 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import mworkstation.com.mworkstation.app2install.AppInstallActivity;
+import mworkstation.com.mworkstation.dateutil.DateActivity;
+import mworkstation.com.mworkstation.encrypt2spref.DataEncyptActivity;
 import mworkstation.com.mworkstation.jason2view.JasonViewActivity;
 
 import android.view.Menu;
@@ -47,7 +50,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        onNavigationItemSelected(navigationView.getMenu().findItem(R.id.nav_jason_view));
+      //  onNavigationItemSelected(navigationView.getMenu().findItem(R.id.nav_jason_view));
     }
 
     @Override
@@ -90,11 +93,14 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_jason_view) {
             startActivity(new Intent(MainActivity.this, JasonViewActivity.class));
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_app_install) {
+            startActivity(new Intent(MainActivity.this, AppInstallActivity.class));
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_data_encypt) {
+            startActivity(new Intent(MainActivity.this, DataEncyptActivity.class));
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_date) {
+            startActivity(new Intent(MainActivity.this, DateActivity.class));
 
         } else if (id == R.id.nav_share) {
 
