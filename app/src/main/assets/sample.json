@@ -1,0 +1,458 @@
+
+
+{
+  "widget": "android.widget.LinearLayout",
+  "properties": [
+    {
+      "name": "layout_width",
+      "type": "dimen",
+      "value": "match_parent"
+    },
+    {
+      "name": "layout_height",
+      "type": "dimen",
+      "value": "wrap_content"
+    },
+    {
+      "name": "background",
+      "type": "color",
+      "value": "#ffffff"
+    },
+    {
+      "name": "layout_centerInParent",
+      "type": "boolean",
+      "value": "true"
+    },
+    {
+      "name": "orientation",
+      "type": "string",
+      "value": "vertical"
+    }
+  ],
+  "views": [
+    {
+      "widget": "android.widget.LinearLayout",
+      "properties": [
+        {
+          "name": "layout_width",
+          "type": "dimen",
+          "value": "match_parent"
+        },
+        {
+          "name": "layout_height",
+          "type": "dimen",
+          "value": "wrap_content"
+        },
+        {
+          "name": "background",
+          "type": "color",
+          "value": "#ffffff"
+        },
+        {
+          "name": "layout_centerInParent",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "value": "horizontal"
+        }
+      ],
+      "views": [
+        {
+          "widget": "android.widget.TextView",
+          "properties": [
+            {
+              "name": "layout_width",
+              "type": "dimen",
+              "value": "100dp"
+            },
+            {
+              "name": "layout_height",
+              "type": "dimen",
+              "value": "wrap_content"
+            },
+            {
+              "name": "background",
+              "type": "color",
+              "value": "#ffffff"
+            },
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Name"
+            },
+            {
+              "name": "textSize",
+              "type": "dimen",
+              "value": "16sp"
+            },
+            {
+              "name": "padding",
+              "type": "dimen",
+              "value": "5dp"
+            },
+            {
+              "name": "gravity",
+              "type": "string",
+              "value": "center"
+            },
+            {
+              "name": "textColor",
+              "type": "color",
+              "value": "#1f91f7"
+            }
+          ]
+        },
+        {
+          "widget": "android.widget.EditText",
+          "properties": [
+            {
+              "name": "id",
+              "type": "",
+              "value": "e1"
+            },
+            {
+              "name": "layout_width",
+              "type": "dimen",
+              "value": "200dp"
+            },
+            {
+              "name": "layout_height",
+              "type": "dimen",
+              "value": "wrap_content"
+            },
+            {
+              "name": "gravity",
+              "type": "string",
+              "value": "center"
+            },
+            {
+              "name": "gravity",
+              "type": "",
+              "value": "center"
+            },
+            {
+              "name": "hint",
+              "type": "string",
+              "value": "name"
+            },
+            {
+              "name": "padding",
+              "type": "dimen",
+              "value": "16dp"
+            },
+            {
+              "name": "textColor",
+              "type": "color",
+              "value": "#919191"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "widget": "android.widget.LinearLayout",
+      "properties": [
+        {
+          "name": "layout_width",
+          "type": "dimen",
+          "value": "match_parent"
+        },
+        {
+          "name": "layout_height",
+          "type": "dimen",
+          "value": "wrap_content"
+        },
+        {
+          "name": "background",
+          "type": "color",
+          "value": "#ffffff"
+        },
+        {
+          "name": "layout_centerInParent",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "value": "horizontal"
+        }
+      ],
+      "views": [
+        {
+          "widget": "android.widget.TextView",
+          "properties": [
+            {
+              "name": "layout_width",
+              "type": "dimen",
+              "value": "100dp"
+            },
+            {
+              "name": "layout_height",
+              "type": "dimen",
+              "value": "wrap_content"
+            },
+            {
+              "name": "background",
+              "type": "color",
+              "value": "#ffffff"
+            },
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Email"
+            },
+            {
+              "name": "textSize",
+              "type": "dimen",
+              "value": "16sp"
+            },
+            {
+              "name": "padding",
+              "type": "dimen",
+              "value": "5dp"
+            },
+            {
+              "name": "gravity",
+              "type": "string",
+              "value": "center"
+            },
+            {
+              "name": "textColor",
+              "type": "color",
+              "value": "#1f91f7"
+            }
+          ]
+        },
+        {
+          "widget": "android.widget.EditText",
+          "properties": [
+            {
+              "name": "id",
+              "type": "",
+              "value": "e2"
+            },
+            {
+              "name": "layout_width",
+              "type": "dimen",
+              "value": "200dp"
+            },
+            {
+              "name": "layout_height",
+              "type": "dimen",
+              "value": "wrap_content"
+            },
+            {
+              "name": "gravity",
+              "type": "string",
+              "value": "center"
+            },
+            {
+              "name": "gravity",
+              "type": "",
+              "value": "center"
+            },
+            {
+              "name": "hint",
+              "type": "string",
+              "value": "email"
+            },
+            {
+              "name": "padding",
+              "type": "dimen",
+              "value": "16dp"
+            },
+            {
+              "name": "textColor",
+              "type": "color",
+              "value": "#919191"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "widget": "android.widget.LinearLayout",
+      "properties": [
+        {
+          "name": "layout_width",
+          "type": "dimen",
+          "value": "match_parent"
+        },
+        {
+          "name": "layout_height",
+          "type": "dimen",
+          "value": "wrap_content"
+        },
+        {
+          "name": "background",
+          "type": "color",
+          "value": "#ffffff"
+        },
+        {
+          "name": "layout_centerInParent",
+          "type": "boolean",
+          "value": "true"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "value": "horizontal"
+        }
+      ],
+      "views": [
+        {
+          "widget": "android.widget.TextView",
+          "properties": [
+            {
+              "name": "layout_width",
+              "type": "dimen",
+              "value": "100dp"
+            },
+            {
+              "name": "layout_height",
+              "type": "dimen",
+              "value": "wrap_content"
+            },
+            {
+              "name": "background",
+              "type": "color",
+              "value": "#ffffff"
+            },
+            {
+              "name": "text",
+              "type": "string",
+              "value": "Address"
+            },
+            {
+              "name": "textSize",
+              "type": "dimen",
+              "value": "16sp"
+            },
+            {
+              "name": "padding",
+              "type": "dimen",
+              "value": "5dp"
+            },
+            {
+              "name": "gravity",
+              "type": "string",
+              "value": "center"
+            },
+            {
+              "name": "textColor",
+              "type": "color",
+              "value": "#1f91f7"
+            }
+          ]
+        },
+        {
+          "widget": "android.widget.EditText",
+          "properties": [
+            {
+              "name": "id",
+              "type": "",
+              "value": "e3"
+            },
+            {
+              "name": "layout_width",
+              "type": "dimen",
+              "value": "200dp"
+            },
+            {
+              "name": "layout_height",
+              "type": "dimen",
+              "value": "wrap_content"
+            },
+            {
+              "name": "gravity",
+              "type": "string",
+              "value": "center"
+            },
+            {
+              "name": "gravity",
+              "type": "",
+              "value": "center"
+            },
+            {
+              "name": "hint",
+              "type": "string",
+              "value": "address"
+            },
+            {
+              "name": "padding",
+              "type": "dimen",
+              "value": "16dp"
+            },
+            {
+              "name": "textColor",
+              "type": "color",
+              "value": "#919191"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "widget": "android.widget.TextView",
+      "properties": [
+        {
+          "name": "id",
+          "type": "",
+          "value": "submit"
+        },
+        {
+          "name": "layout_width",
+          "type": "dimen",
+          "value": "match_parent"
+        },
+        {
+          "name": "layout_height",
+          "type": "dimen",
+          "value": "wrap_content"
+        },
+        {
+          "name": "background",
+          "type": "color",
+          "value": "#ffffff"
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "SUBMIT"
+        },
+        {
+          "name": "textSize",
+          "type": "dimen",
+          "value": "16sp"
+        },
+        {
+          "name": "padding",
+          "type": "dimen",
+          "value": "5dp"
+        },
+        {
+          "name": "gravity",
+          "type": "string",
+          "value": "right"
+        },
+        {
+          "name": "textColor",
+          "type": "color",
+          "value": "#1f91f7"
+        },
+        {
+          "name": "layout_marginRight",
+          "type": "dimen",
+          "value": "52dp"
+        }
+      ]
+    }
+
+
+
+  ]
+}

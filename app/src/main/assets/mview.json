@@ -1,0 +1,22 @@
+{"widget": "android.widget.LinearLayout",
+  "properties": [{
+    "name": "background",
+    "type": "color",
+    "value": "#919191"
+  },
+    {
+      "name": "layout_width",
+      "type": "dimen",
+      "value": "match_parent"
+    },
+    {
+      "name": "layout_height",
+      "type": "dimen",
+      "value": "match_parent"
+    },
+    {
+      "name": "padding",
+      "type": "dimen",
+      "value": "10dp"
+    }]
+}
