@@ -22,7 +22,13 @@
         <activity android:name=".jason2view.JasonViewActivity" />
         <activity android:name=".app2install.AppInstallActivity" />
         <activity android:name=".encrypt2spref.DataEncyptActivity" />
-        <activity android:name=".dateutil.DateActivity"></activity>
+        <activity android:name=".dateutil.DateActivity" />
+        <activity android:name=".MatchGame.MatchActivity" />
+        <activity android:name=".text2speech.Text2speechActivity"
+            android:theme="@style/AppTheme2"/>
+        <activity android:name=".actionbar2trans.TransparentActionbarActivity"
+            android:theme="@style/AppTheme2"
+            ></activity>
     </application>
 
 </manifest>

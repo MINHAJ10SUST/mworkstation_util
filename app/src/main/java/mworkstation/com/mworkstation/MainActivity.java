@@ -15,10 +15,12 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import mworkstation.com.mworkstation.MatchGame.MatchActivity;
 import mworkstation.com.mworkstation.app2install.AppInstallActivity;
 import mworkstation.com.mworkstation.dateutil.DateActivity;
 import mworkstation.com.mworkstation.encrypt2spref.DataEncyptActivity;
 import mworkstation.com.mworkstation.jason2view.JasonViewActivity;
+import mworkstation.com.mworkstation.text2speech.Text2speechActivity;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -103,8 +105,10 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(MainActivity.this, DateActivity.class));
 
         } else if (id == R.id.nav_share) {
+            startActivity(new Intent(MainActivity.this, Text2speechActivity.class));
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_game) {
+            startActivity(new Intent(MainActivity.this, MatchActivity.class));
 
         }
 
