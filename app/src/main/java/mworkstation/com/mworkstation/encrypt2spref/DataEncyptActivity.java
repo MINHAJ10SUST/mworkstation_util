@@ -6,12 +6,11 @@ import mworkstation.com.mworkstation.R;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Base64;
 import android.view.View;
 import android.widget.Toast;
 
-import static mworkstation.com.mworkstation.encrypt2spref.Encryption.decrypt;
-import static mworkstation.com.mworkstation.encrypt2spref.Encryption.encrypt;
+import static mworkstation.com.mworkstation.util.Encryption.decrypt;
+import static mworkstation.com.mworkstation.util.Encryption.encrypt;
 
 public class DataEncyptActivity extends AppCompatActivity {
     SharedPreferences preferences;

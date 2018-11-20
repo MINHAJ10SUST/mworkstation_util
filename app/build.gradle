@@ -30,6 +30,9 @@ dependencies {
     implementation project(path: ':mjason2view')
     // Stepper for Text2Speech
     implementation 'com.github.baoyachi:StepView:1.9'
+    implementation 'ja.burhanrashid52:photoeditor:0.3.3'
+
+    implementation 'com.google.code.gson:gson:2.7'
 
 
 }

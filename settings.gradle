@@ -1,1 +1,1 @@
-include ':app', ':mjason2view'
+include ':app', ':mjason2view', ':stepcirculerview'

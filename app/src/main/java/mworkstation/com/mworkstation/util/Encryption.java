@@ -1,4 +1,4 @@
-package mworkstation.com.mworkstation.encrypt2spref;
+package mworkstation.com.mworkstation.util;
 
 import android.util.Base64;
 
